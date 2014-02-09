@@ -32,7 +32,8 @@
   }
 
   function generateLink($file) {
-    return '<a href="' . $file . '">'.getEndOfPath($file).'</a>';
+    $class = (endsWith($file,'.mp3') ? 'audio' : '');
+    return '<a class="'. $class . '" href="' . $file . '">'.getEndOfPath($file).'</a>';
   }
 
   function list_contents($file) {
@@ -42,7 +43,7 @@
         if ($new_file !== '.' && $new_file !== '..') {
           $new_file = $file . DIRECTORY_SEPARATOR . $new_file;
           if (is_dir($new_file)) {
-            echo '<li class="folder"><a href="javascript:void(0);" class="music_list_link">',getEndOfPath($new_file),'</a>';
+            echo '<li><a href="javascript:void(0);" class="music_list_link folder">',getEndOfPath($new_file),'</a>';
             echo '<ul>';
             list_contents($new_file);
             echo '</ul></li>';

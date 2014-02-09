@@ -1,2 +1,23 @@
-.folder {
-  list-style-image: url(../img/appbar.folder.png); }
+#menu {
+  line-height: 1.5;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 3px; }
+  #menu li {
+    list-style: none;
+    margin: 0; }
+  #menu .folder {
+    background: url(../img/map.png) -5px -5px;
+    background-repeat: no-repeat;
+    padding-left: 25px; }
+  #menu .folderOpen {
+    background: url(../img/map.png) -5px -35px;
+    background-repeat: no-repeat;
+    padding-left: 25px; }
+  #menu .audio {
+    background: url(../img/map.png) -5px -65px;
+    background-repeat: no-repeat;
+    padding-left: 25px; }

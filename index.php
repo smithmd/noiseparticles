@@ -39,6 +39,7 @@
         });
         $('.music_list_link').click(function() {
           $(this).siblings().toggle();
+          $(this).toggleClass('folder').toggleClass('folderOpen');
         });
       });
     </script>
