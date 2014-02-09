@@ -15,6 +15,10 @@
     return $needle === "" || substr($haystack, -strlen($needle)) === $needle;
   }
 
+  function generateAudioLink($file) {
+
+  }
+
   function generateAudioTag($file) {
     return '<audio controls="controls">'.
         '<source src="'.$file.'" type="audio/mpeg">'.
