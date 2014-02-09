@@ -9,9 +9,10 @@
 ?>
 <ul>
   <li><a href="javascript:void(0);" id="dice_link">RPG Dice</a></li>
-  <li>Music
+  <li><a href="javascript:void(0)" class="music_list_link">Music<a/>
     <?php include 'music_lister.php' ?>
   </li>
   <li><a href="javascript:void(0);" id="portfolio_link">Portfolio</a></li>
   <li><a href="javascript:void(0);" id="resume_link">R&eacute;sum&eacute;</a></li>
+  <li><a href="https://github.com/theguitarizt">Github</a></li>
 </ul>

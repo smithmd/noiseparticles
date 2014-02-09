@@ -42,17 +42,17 @@
         if ($new_file !== '.' && $new_file !== '..') {
           $new_file = $file . DIRECTORY_SEPARATOR . $new_file;
           if (is_dir($new_file)) {
-            echo "<li>",getEndOfPath($new_file),"</li>";
+            echo '<li class="folder"><a href="javascript:void(0);" class="music_list_link">',getEndOfPath($new_file),'</a>';
             echo '<ul>';
             list_contents($new_file);
-            echo '</ul>';
+            echo '</ul></li>';
           } elseif (is_file($new_file)) {
 //            if (endsWith($new_file, '.mp3')) {
 //              $new_file = generateAudioTag($new_file);
 //            } else {
               $new_file = generateLink($new_file);
 //            }
-            echo '<li>',$new_file,'</li>';
+            echo '<li class="file">',$new_file,'</li>';
           } else {
             echo "<li>? $new_file</li>";
           }
