@@ -15,7 +15,9 @@
     <link href="sass/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <?php include 'menu.php'; ?>
+    <div id="menu_container">
+      <?php include 'menu.php'; ?>
+    </div>
     <div id="main_content"></div>
     <script type="application/javascript" src="/js/jquery-2.1.0.js"></script>
     <script type="application/javascript">
