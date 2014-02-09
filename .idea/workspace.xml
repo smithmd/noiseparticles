@@ -26,18 +26,44 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
-              <folding />
+            <state line="16" column="32" selection-start="270" selection-end="270" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="432">
+              <folding>
+                <element signature="e#8#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recurse.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="recurse.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recurse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5565217" vertical-offset="0" max-vertical-offset="1035">
+            <state line="28" column="0" selection-start="0" selection-end="818" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="684">
               <folding>
                 <element signature="e#6#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="288" selection-end="288" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="360">
+              <folding>
+                <element signature="e#8#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music_lister.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/music_lister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="56" selection-start="676" selection-end="676" vertical-scroll-proportion="0.45217392" vertical-offset="0" max-vertical-offset="1062">
+              <folding>
+                <element signature="e#8#99#0" expanded="true" />
+                <marker date="1391963971653" expanded="true" signature="892:1132" placeholder="..." />
+                <marker date="1391963971653" expanded="true" signature="1315:1340" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -58,6 +84,8 @@
         <option value="$PROJECT_DIR$/resume/index.htm" />
         <option value="$PROJECT_DIR$/recurse.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/music_lister.php" />
       </list>
     </option>
   </component>
@@ -199,16 +227,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
-          <folding />
+        <state line="16" column="32" selection-start="270" selection-end="270" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="432">
+          <folding>
+            <element signature="e#8#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="288" selection-end="288" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="360">
+          <folding>
+            <element signature="e#8#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recurse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.5565217" vertical-offset="0" max-vertical-offset="1035">
+        <state line="28" column="0" selection-start="0" selection-end="818" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="684">
           <folding>
             <element signature="e#6#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music_lister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="56" selection-start="676" selection-end="676" vertical-scroll-proportion="0.45217392" vertical-offset="0" max-vertical-offset="1062">
+          <folding>
+            <element signature="e#8#99#0" expanded="true" />
+            <marker date="1391963971653" expanded="true" signature="892:1132" placeholder="..." />
+            <marker date="1391963971653" expanded="true" signature="1315:1340" placeholder="..." />
           </folding>
         </state>
       </provider>
