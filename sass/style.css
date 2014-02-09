@@ -9,15 +9,15 @@
   #menu li {
     list-style: none;
     margin: 0; }
+  #menu .folder, #menu .folderOpen, #menu .audio, #menu .pdf, #menu .file {
+    padding-left: 25px; }
   #menu .folder {
-    background: url(../img/map.png) -5px -5px;
-    background-repeat: no-repeat;
-    padding-left: 25px; }
+    background: url(../img/map.png) -5px -5px no-repeat; }
   #menu .folderOpen {
-    background: url(../img/map.png) -5px -35px;
-    background-repeat: no-repeat;
-    padding-left: 25px; }
+    background: url(../img/map.png) -5px -35px no-repeat; }
   #menu .audio {
-    background: url(../img/map.png) -5px -65px;
-    background-repeat: no-repeat;
-    padding-left: 25px; }
+    background: url(../img/map.png) -5px -64px no-repeat; }
+  #menu .pdf {
+    background: url(../img/map.png) -5px -93px no-repeat; }
+  #menu .file {
+    background: url(../img/map.png) -5px -122px no-repeat; }

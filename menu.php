@@ -8,7 +8,7 @@
 
 ?>
 <ul id="menu">
-  <li><a href="javascript:void(0);" id="dice_link">RPG Dice</a></li>
+  <li><a href="javascript:void(0);" id="dice_link" class="file">RPG Dice</a></li>
   <li><a href="javascript:void(0)" class="music_list_link folder">Music<a/>
     <?php include 'music_lister.php' ?>
   </li>

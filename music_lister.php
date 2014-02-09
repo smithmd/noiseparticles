@@ -32,7 +32,14 @@
   }
 
   function generateLink($file) {
-    $class = (endsWith($file,'.mp3') ? 'audio' : '');
+    if (endsWith($file,'.mp3')) {
+      $class = 'audio';
+    } else if (endsWith($file, '.pdf')) {
+      $class = 'pdf';
+    } else {
+      $class = 'file';
+    }
+
     return '<a class="'. $class . '" href="' . $file . '">'.getEndOfPath($file).'</a>';
   }
 
@@ -53,7 +60,7 @@
 //            } else {
               $new_file = generateLink($new_file);
 //            }
-            echo '<li class="file">',$new_file,'</li>';
+            echo '<li>',$new_file,'</li>';
           } else {
             echo "<li>? $new_file</li>";
           }

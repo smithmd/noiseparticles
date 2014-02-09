@@ -11,22 +11,27 @@
     margin:0;
   }
 
-  .folder {
-    background: url(../img/map.png) -5px -5px;
-    background-repeat: no-repeat;
+  .folder, .folderOpen, .audio, .pdf, .file {
     padding-left:25px;
+  }
 
+  .folder {
+    background: url(../img/map.png) -5px -5px no-repeat;
   }
 
   .folderOpen {
-    background: url(../img/map.png) -5px -35px;
-    background-repeat: no-repeat;
-    padding-left:25px;
+    background: url(../img/map.png) -5px -35px no-repeat;
   }
 
   .audio {
-    background: url(../img/map.png) -5px -65px;
-    background-repeat: no-repeat;
-    padding-left:25px;
+    background: url(../img/map.png) -5px -64px no-repeat;
+  }
+
+  .pdf {
+    background: url(../img/map.png) -5px -93px no-repeat;
+  }
+
+  .file {
+    background: url(../img/map.png) -5px -122px no-repeat;
   }
 }
