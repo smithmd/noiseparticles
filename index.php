@@ -23,7 +23,7 @@
     <div id="menu_container">
       <?php include 'menu.php'; ?>
     </div>
-    <div id="main_content"></div>
+    <div id="main_content" style="display:none"></div>
     <script type="application/javascript" src="/js/jquery-2.1.0.js"></script>
     <script type="application/javascript">
       $(document).ready(function () {
@@ -31,17 +31,17 @@
         $('li ul').hide();
         $('#dice_link').click(function() {
           $.get('/dice/index.html',function (data) {
-            main_content.html(data);
+            main_content.html(data).show();
           });
         });
         $('#portfolio_link').click(function () {
           $.get('/portfolio', function (data) {
-            main_content.html(data);
+            main_content.html(data).show();
           });
         });
         $('#resume_link').click( function () {
           $.get('/resume', function (data) {
-            main_content.html(data);
+            main_content.html(data).show();
           });
         });
         $('.music_list_link').click(function() {

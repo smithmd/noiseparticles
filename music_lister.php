@@ -45,7 +45,7 @@
 
   function list_contents($file) {
     if ($handle = opendir($file)) {
-      $files = scandir($file,SCANDIR_SORT_ASCENDING);
+      $files = scandir($file,0);
       foreach($files as $new_file) {
         if ($new_file !== '.' && $new_file !== '..') {
           $new_file = $file . DIRECTORY_SEPARATOR . $new_file;
