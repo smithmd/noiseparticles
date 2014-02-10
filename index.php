@@ -17,6 +17,7 @@
   <body>
     <div id="menu_container">
       <?php include 'menu.php'; ?>
+      <div id="audio_container"></div>
     </div>
     <div id="main_content"></div>
     <script type="application/javascript" src="/js/jquery-2.1.0.js"></script>
@@ -44,6 +45,12 @@
           $(this).toggleClass('folder').toggleClass('folderOpen');
         });
       });
+
+      function loadAudio(filename) {
+        $.get('/audio.php?file='+filename, function (data) {
+          $("#audio_container").html(data);
+        });
+      }
     </script>
   </body>
 </html>

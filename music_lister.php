@@ -15,8 +15,8 @@
     return $needle === "" || substr($haystack, -strlen($needle)) === $needle;
   }
 
-  function generateAudioLink($file) {
-
+  function generateAudioHref($file) {
+    return '<a class="audio" href="javascript:void(0);" onclick="loadAudio(\''.$file.'\');">'.getEndOfPath($file).'</a>';
   }
 
   function generateAudioTag($file) {
@@ -33,7 +33,7 @@
 
   function generateLink($file) {
     if (endsWith($file,'.mp3')) {
-      $class = 'audio';
+      return generateAudioHref($file);
     } else if (endsWith($file, '.pdf')) {
       $class = 'pdf';
     } else {
