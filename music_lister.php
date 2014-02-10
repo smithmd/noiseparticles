@@ -16,7 +16,7 @@
   }
 
   function generateAudioHref($file) {
-    return '<a class="audio" href="javascript:void(0);" onclick="loadAudio(\''.$file.'\');">'.getEndOfPath($file).'</a>';
+    return '<a class="audio" href="javascript:void(0);" onclick="loadAudio(\''.urlencode($file).'\');">'.getEndOfPath($file).'</a>';
   }
 
   function generateAudioTag($file) {

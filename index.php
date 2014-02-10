@@ -15,9 +15,13 @@
     <link href="sass/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <header>Noise Particles
+      <div id="audio_container" style="display:none">
+        <div id="audio_player"></div>
+        <a id="close_audio" href="javascript:void(0);">Close Audio Player</a>
+      </div></header>
     <div id="menu_container">
       <?php include 'menu.php'; ?>
-      <div id="audio_container"></div>
     </div>
     <div id="main_content"></div>
     <script type="application/javascript" src="/js/jquery-2.1.0.js"></script>
@@ -47,8 +51,12 @@
       });
 
       function loadAudio(filename) {
+        $('#audio_container').show();
+        $('#close_audio').click(function () {
+          $('#audio_container').hide();
+        });
         $.get('/audio.php?file='+filename, function (data) {
-          $("#audio_container").html(data);
+          $("#audio_player").html(data);
         });
       }
     </script>

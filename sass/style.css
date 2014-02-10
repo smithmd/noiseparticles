@@ -5,11 +5,17 @@ html, body {
   position: relative;
   background-color: #efefef; }
 
+#audio_container {
+  display: inline-flex;
+  margin: 0 auto; }
+
 #menu_container {
-  position: fixed;
-  display: inline;
+  display: inline-flex;
+  float: left;
+  max-width: 25%;
   top: 0;
-  left: 0; }
+  left: 0;
+  clear: right; }
 
 #menu {
   display: inline-block;
