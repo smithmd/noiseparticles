@@ -15,7 +15,7 @@ header {
 #main_content {
   padding: 1em 2em;
   background-color: white;
-  border: 2px solid #999;
+  border: 2px solid #999999;
   max-width: 65%; }
 
 #menu_container {
@@ -36,10 +36,9 @@ header {
   list-style: none;
   padding: 1em;
   margin: 0;
-  border-right: 2px solid #999;
-  border-bottom: 2px solid #999;
-  border-top: 2px solid #999;
-  border-radius: 6px;
+  border-right: 2px solid #999999;
+  border-bottom: 2px solid #999999;
+  border-top: 2px solid #999999;
   background-color: #fff; }
   #menu ul {
     padding-left: 10px; }
