@@ -18,14 +18,18 @@
 <span>TravelFormReaderArrival.java:
   <a href="javascript:void(0);" onclick="loadPrism('TravelFormReaderArrival.java')">View</a> |
   <a href="/portfolio/codeFiles/TravelFormReaderArrival.java">Download</a></span><br />
-
-<pre id="prism-placeholder" class="line-numbers"></pre>
+<br />
+<span id="codeTitle" style="text-align: center;"></span><br />
+<pre class="line-numbers"><code id="prism-placeholder" class="language-java"></code></pre>
 <script type="application/javascript" src="/js/prism.js"></script>
 <script type="application/javascript" src="/js/jquery-2.1.0.js"></script>
 <script type="application/javascript">
   function loadPrism(filename) {
     var prefix = '/portfolio/codeFiles/';
-    $("#prism-placeholder").attr('data-src', prefix + filename);
-    Prism.highlightAll();
+    $.get(prefix + filename, function(data) {
+      $("#prism-placeholder").html(data);
+      $("#codeTitle").html(filename);
+      Prism.highlightAll();
+    });
   }
 </script>
