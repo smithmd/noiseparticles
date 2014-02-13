@@ -88,3 +88,20 @@ fieldset {
     background-color: white;
     padding: .5em 1em;
     margin-left: 1em; }
+  fieldset .exp_section, fieldset .ed_section, fieldset .skill_section {
+    border-bottom: 1px solid #999999;
+    padding: 1em; }
+    fieldset .exp_section ul, fieldset .ed_section ul, fieldset .skill_section ul {
+      margin: 0.5em 0 1em 0; }
+      fieldset .exp_section ul li, fieldset .ed_section ul li, fieldset .skill_section ul li {
+        list-style-type: circle; }
+    fieldset .exp_section h1, fieldset .exp_section h2, fieldset .exp_section h3, fieldset .exp_section h4, fieldset .ed_section h1, fieldset .ed_section h2, fieldset .ed_section h3, fieldset .ed_section h4, fieldset .skill_section h1, fieldset .skill_section h2, fieldset .skill_section h3, fieldset .skill_section h4 {
+      margin: 0;
+      display: inline-block; }
+    fieldset .exp_section h3, fieldset .exp_section h4, fieldset .ed_section h3, fieldset .ed_section h4, fieldset .skill_section h3, fieldset .skill_section h4 {
+      float: right; }
+    fieldset .exp_section h4, fieldset .ed_section h4, fieldset .skill_section h4 {
+      position: relative;
+      top: 10px; }
+  fieldset .last {
+    border: none; }

@@ -9,9 +9,11 @@
   <fieldset class="section">
     <legend>Experience</legend>
     <div class="exp_section">
-      <h1>Science Solved</h1>
-      <h3>Web Developer</h3>
-      <h2>March 2013 - Present</h2>
+      <h1>Science Solved</h1><br/>
+
+      <h2>Web Developer</h2>
+
+      <h3>March 2013 - Present</h3>
       <ul>
         <li>PHP, MySQL, Nginx</li>
         <li>Created website with PHP</li>
@@ -21,9 +23,12 @@
     </div>
 
     <div class="exp_section">
-      <h1>Interlochen Center for the Arts, Interlochen, MI</h1>
-      <h3>Software Developer</h3>
-      <h2>March 2010 - Present</h2>
+      <h1>Interlochen Center for the Arts</h1>
+      <h4>Interlochen, MI</h4><br/>
+
+      <h2>Software Developer</h2>
+
+      <h3>March 2010 - Present</h3>
       <ul>
         <li>Write Java, PHP</li>
         <li>Built website in Drupal</li>
@@ -31,10 +36,13 @@
       </ul>
     </div>
 
-    <div class="exp_section">
-      <h1>Hagerty Insurance Agency, Traverse City, MI</h1>
-      <h3>Software Developer</h3>
-      <h2>September 2006 - March 2010</h2>
+    <div class="exp_section last">
+      <h1>Hagerty Insurance Agency</h1>
+      <h4>Traverse City, MI</h4><br/>
+
+      <h2>Software Developer</h2>
+
+      <h3>September 2006 - March 2010</h3>
       <ul>
         <li>Write C#, ASP.NET, HTML, CSS code.</li>
         <li>Work with Ektron content management system.</li>
@@ -45,23 +53,29 @@
   </fieldset>
   <fieldset class="section">
     <legend>Skills</legend>
-    <ul id="skillList">
-      <li>Programming Languages - Java, PHP, mySQL, C#</li>
-      <li>Linux/UNIX - Administration, shell scripting, hardware and software installation, Nginx, Apache, MySQL</li>
-      <li>Windows - Administration, IIS</li>
-      <li>Website Optimization</li>
-    </ul>
+    <div class="skill_section last">
+      <ul id="skillList">
+        <li>Programming Languages - Java, PHP, mySQL, C#</li>
+        <li>Linux/UNIX - Administration, shell scripting, hardware and software installation, Nginx, Apache, MySQL</li>
+        <li>Windows - Administration, IIS</li>
+        <li>Website Optimization</li>
+      </ul>
+    </div>
   </fieldset>
   <fieldset class="section">
     <legend>Education</legend>
-    <h1>Michigan Technological University, Houghton, MI</h1>
+    <div class="ed_section last">
+      <h1>Michigan Technological University</h1>
+      <h4>Houghton, MI</h4>
 
-    <h3>Bachelor of Science - Computer Systems Science, May 2006</h3>
-    <ul>
-      <li>WMTU FM: Music Director, member of computer department</li>
-      <li>Classes: Computer Administration, Network Administration, Computer Networks, Computer and Network
-        Security, Performance Analysis
-      </li>
-    </ul>
+      <h2>Bachelor of Science - Computer Systems Science</h2>
+      <h3>May 2006</h3>
+      <ul>
+        <li>WMTU FM: Music Director, member of computer department</li>
+        <li>Classes: Computer Administration, Network Administration, Computer Networks, Computer and Network
+          Security, Performance Analysis
+        </li>
+      </ul>
+    </div>
   </fieldset>
 </div>

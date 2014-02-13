@@ -1,64 +1,64 @@
 $borderColor: #999;
 $backgroundColor: #ddd;
 
-html,body {
-  margin:0;
-  padding:0;
+html, body {
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
   position: relative;
   background-color: $backgroundColor;
 }
 
 header {
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 #audio_container {
-  display:inline-flex;
-  margin:0 auto;
+  display: inline-flex;
+  margin: 0 auto;
 }
 
 #main_content {
-  padding:1em 2em;
+  padding: 1em 2em;
   background-color: white;
-  border:2px solid $borderColor;
+  border: 2px solid $borderColor;
   max-width: 65%;
 }
 
 #menu_container {
   display: inline-flex;
-  float:left;
-  max-width:25%;
-  top:0;
-  left:0;
-  clear:right;
-  margin-right:2em;
+  float: left;
+  max-width: 25%;
+  top: 0;
+  left: 0;
+  clear: right;
+  margin-right: 2em;
 }
 
 #menu {
-  display:inline-block;
-  position:relative;
-  top:0;
-  left:0;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
   line-height: 1.5;
   list-style: none;
-  padding:1em;
-  margin:0;
+  padding: 1em;
+  margin: 0;
   border-right: 2px solid $borderColor;
   border-bottom: 2px solid $borderColor;
   border-top: 2px solid $borderColor;
   background-color: #fff;
   ul {
-    padding-left:10px;
+    padding-left: 10px;
   }
   li {
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
 
   .folder, .folderOpen, .audio, .pdf, .file {
-    padding-left:25px;
+    padding-left: 25px;
   }
 
   .folder {
@@ -83,8 +83,8 @@ header {
 }
 
 #main_content {
-  display:inline-block;
-  margin-bottom:2em;
+  display: inline-block;
+  margin-bottom: 2em;
 }
 
 pre {
@@ -98,27 +98,54 @@ header {
 
 #resume_body {
   background-color: #efefef;
-  border:2px solid $borderColor;
-  margin-top:1em;
+  border: 2px solid $borderColor;
+  margin-top: 1em;
 
   header {
     background-color: white;
     border: 2px solid $borderColor;
-    margin:-2px;
+    margin: -2px;
   }
 }
 
 fieldset {
-  border:2px solid $borderColor;
-  margin:1em;
-  margin-top:2em;
+  border: 2px solid $borderColor;
+  margin: 1em;
+  margin-top: 2em;
   background-color: white;
-
 
   legend {
     border: 2px solid $borderColor;
     background-color: white;
-    padding:.5em 1em;
+    padding: .5em 1em;
     margin-left: 1em;
+  }
+
+  .exp_section, .ed_section, .skill_section {
+    border-bottom: 1px solid $borderColor;
+    padding:1em;
+
+    ul {
+      margin:0.5em 0 1em 0;
+      li {
+        list-style-type: circle;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0;
+      display: inline-block;
+    }
+    h3,h4 {
+      float:right;
+    }
+    h4 {
+      position:relative;
+      top:10px;
+    }
+  }
+
+  .last {
+    border: none;
   }
 }
