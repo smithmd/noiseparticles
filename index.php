@@ -35,12 +35,12 @@
           });
         });
         $('#portfolio_link').click(function () {
-          $.get('/portfolio', function (data) {
+          $.get('/portfolio/index.php', function (data) {
             main_content.html(data).show();
           });
         });
         $('#resume_link').click( function () {
-          $.get('/resume', function (data) {
+          $.get('/resume/index.php', function (data) {
             main_content.html(data).show();
           });
         });
