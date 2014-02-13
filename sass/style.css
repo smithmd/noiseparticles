@@ -61,3 +61,6 @@ header {
 
 #main_content {
   display: inline-block; }
+
+pre {
+  max-height: 37em; }
