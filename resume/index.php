@@ -1,8 +1,8 @@
 <div id="resume_body">
   <header>
     <h1>Michael Smith</h1>
-
-    <a href="mailto:mike@noiseparticles.com">mike@noiseparticles.com</a>
+    <p>
+      <a href="mailto:mike@noiseparticles.com">mike@noiseparticles.com</a>
     </p>
     <br style="clear:both;"/>
   </header>
