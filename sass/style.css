@@ -87,7 +87,8 @@ fieldset {
     border: 2px solid #999999;
     background-color: white;
     padding: .5em 1em;
-    margin-left: 1em; }
+    margin-left: 1em;
+    font-weight: bold; }
   fieldset .exp_section, fieldset .ed_section, fieldset .skill_section {
     border-bottom: 1px solid #999999;
     padding: 1em; }
