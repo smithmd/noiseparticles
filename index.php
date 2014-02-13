@@ -15,11 +15,13 @@
     <link href="sass/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>Noise Particles
+    <header>
+      <span>Noise Particles</span><br />
       <div id="audio_container" style="display:none">
-        <div id="audio_player"></div>
+        <div id="audio_player"></div><br />
         <a id="close_audio" href="javascript:void(0);">Close Audio Player</a>
-      </div></header>
+      </div>
+    </header>
     <div id="menu_container">
       <?php include 'menu.php'; ?>
     </div>

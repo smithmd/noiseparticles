@@ -92,17 +92,19 @@ pre {
 }
 
 header {
+
   text-align: center;
 }
 
 #resume_body {
   background-color: #efefef;
   border:2px solid $borderColor;
+  margin-top:1em;
 
   header {
     background-color: white;
     border: 2px solid $borderColor;
-    margin:2px;
+    margin:-2px;
   }
 }
 
