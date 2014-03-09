@@ -7,25 +7,25 @@
 
 <span class="filename">CreateShortUrls.java:</span>
 <span class="file_links">
-  <a href="javascript:void(0);" onclick="loadPrism('CreateShortUrls.java')">View</a> |
+  <a href="javascript:void(0);" onclick="loadPrism('CreateShortUrls.java'); document.getElementById('codeTitle').style.borderTop ='2px solid #111'; ">View</a> |
   <a href="/portfolio/codeFiles/CreateShortUrls.java">Download</a>
 </span>
 
 <span class="filename">GmailAddressImport.java:</span>
 <span class="file_links">
-  <a href="javascript:void(0);" onclick="loadPrism('GmailAddressImport.java')">View</a> |
+  <a href="javascript:void(0);" onclick="loadPrism('GmailAddressImport.java'); document.getElementById('codeTitle').style.borderTop ='2px solid #111'; ">View</a> |
   <a href="/portfolio/codeFiles/GmailAddressImport.java">Download</a>
 </span>
 
 <span class="filename">ParentImport.java:</span>
 <span class="file_links">
-  <a href="javascript:void(0);" onclick="loadPrism('ParentImport.java')">View</a> |
+  <a href="javascript:void(0);" onclick="loadPrism('ParentImport.java'); document.getElementById('codeTitle').style.borderTop ='2px solid #111'; ">View</a> |
   <a href="/portfolio/codeFiles/ParentImport.java">Download</a>
 </span>
 
 <span class="filename">TravelFormReaderArrival.java:</span>
 <span class="file_links">
-  <a href="javascript:void(0);" onclick="loadPrism('TravelFormReaderArrival.java')">View</a> |
+  <a href="javascript:void(0);" onclick="loadPrism('TravelFormReaderArrival.java'); document.getElementById('codeTitle').style.borderTop ='2px solid #111'; ">View</a> |
   <a href="/portfolio/codeFiles/TravelFormReaderArrival.java">Download</a>
 </span>
 

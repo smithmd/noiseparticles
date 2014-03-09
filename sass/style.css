@@ -92,7 +92,6 @@ header {
   text-align: center;
   font-style: italic;
   padding-top: 1.0em;
-  border-top: 2px solid #111;
   margin-top: .5em; }
 
 #resume_body {
@@ -109,7 +108,7 @@ header {
   #resume_body a {
     text-decoration: none; }
     #resume_body a:link {
-      color: #37b8eb; }
+      color: #2a8db4; }
     #resume_body a:visited {
       color: #ef3636; }
     #resume_body a:hover {
