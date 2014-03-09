@@ -9,13 +9,13 @@
   <fieldset class="section">
     <legend>Experience</legend>
     <div class="exp_section">
-      <h1>Science Solved</h1><br/>
+      <h1><a href="http://www.sciencesolved.com" target="_blank">Science Solved</a></h1><br/>
 
-      <h2>Web Developer</h2>
+      <h2>Developer</h2>
 
       <h3>March 2013 - Present</h3>
       <ul>
-        <li>PHP, MySQL, Nginx</li>
+        <li>PHP, MySQL, Sphinx Search, Nginx</li>
         <li>Created website with PHP</li>
         <li>Created RESTful API with Slim Framework, PHP, MySQL</li>
         <li>Administer web server running CentOS</li>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="exp_section">
-      <h1>Interlochen Center for the Arts</h1>
+      <h1><a href="http://www.interlochen.org" target="_blank">Interlochen Center for the Arts</a></h1>
       <h4>Interlochen, MI</h4><br/>
 
       <h2>Software Developer</h2>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="exp_section last">
-      <h1>Hagerty Insurance Agency</h1>
+      <h1><a href="http://www.hagerty.com" target="_blank">Hagerty Insurance Agency</a></h1>
       <h4>Traverse City, MI</h4><br/>
 
       <h2>Software Developer</h2>

@@ -5,21 +5,21 @@
    * Date: 2/8/14
    * Time: 9:11 PM
    */
-
 ?>
 
 <html>
   <head>
+    <title>NoiseParticles</title>
     <meta charset="UTF-8">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <link href="sass/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <span>Noise Particles</span><br />
+      <h2>Noise Particles</h2>
       <div id="audio_container" style="display:none">
-        <div id="audio_player"></div><br />
-        <a id="close_audio" href="javascript:void(0);">Close Audio Player</a>
+        <div id="audio_player"></div>
+        <h6><a id="close_audio" href="javascript:void(0);">Close Audio Player</a></h6>
       </div>
     </header>
     <div id="menu_container">
@@ -31,17 +31,17 @@
       $(document).ready(function () {
         var main_content = $('#main_content');
         $('li ul').hide();
-        $('#dice_link').click(function() {
+        $('#dice').click(function() {
           $.get('/dice/index.html',function (data) {
             main_content.html(data).show();
           });
         });
-        $('#portfolio_link').click(function () {
+        $('#portfolio').click(function () {
           $.get('/portfolio/index.php', function (data) {
             main_content.html(data).show();
           });
         });
-        $('#resume_link').click( function () {
+        $('#resume').click( function () {
           $.get('/resume/index.php', function (data) {
             main_content.html(data).show();
           });
@@ -50,6 +50,8 @@
           $(this).siblings().toggle();
           $(this).toggleClass('folder').toggleClass('folderOpen');
         });
+
+        $(window.location.hash).trigger('click');
       });
 
       function loadAudio(filename) {

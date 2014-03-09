@@ -1,6 +1,10 @@
 $borderColor: #999;
 $backgroundColor: #ddd;
 
+$blue: #37b8eb;
+$red: #ef3636;
+$purple: #7b77ff;
+
 html, body {
   margin: 0;
   padding: 0;
@@ -13,9 +17,15 @@ header {
   margin-bottom: 1em;
 }
 
+h2 {
+  taxt-size:2em;
+}
+
 #audio_container {
-  display: inline-flex;
   margin: 0 auto;
+   h6 {
+     margin: 0 auto 0;
+   }
 }
 
 #main_content {
@@ -23,6 +33,7 @@ header {
   background-color: white;
   border: 2px solid $borderColor;
   max-width: 65%;
+  width:65%;
 }
 
 #menu_container {
@@ -57,7 +68,7 @@ header {
     padding: 0;
   }
 
-  .folder, .folderOpen, .audio, .pdf, .file {
+  .folder, .folderOpen, .audio, .pdf, .file, #github {
     padding-left: 25px;
   }
 
@@ -80,6 +91,11 @@ header {
   .file {
     background: url(../img/map.png) -5px -122px no-repeat;
   }
+
+  #github {
+    background: url(../img/github.png) no-repeat;
+    background-size: 19px;
+  }
 }
 
 #main_content {
@@ -92,11 +108,34 @@ pre {
 }
 
 header {
-
   text-align: center;
+
+  h6 {
+    display:block;
+  }
+}
+
+.filename {
+  display:block;
+  margin: .7em auto 0;
+
+}
+.file_links {
+  display:inline-block;
+  margin: 0 auto .7em 1em;
+}
+
+#codeTitle {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  padding-top: 1.0em;
+  border-top:2px solid #111;
+  margin-top:.5em;
 }
 
 #resume_body {
+  color: #333;;
   background-color: #efefef;
   border: 2px solid $borderColor;
   margin-top: 1em;
@@ -105,6 +144,33 @@ header {
     background-color: white;
     border: 2px solid $borderColor;
     margin: -2px;
+
+    a {
+      font-weight: bold;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    &:link { color:$blue; }
+    &:visited { color:$red; }
+    &:hover { color:$purple; }
+    &:active { color:$red; }
+  }
+  h1, h2, h3, h4 {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  h4 {
+    font-size: 1.0em;
   }
 }
 

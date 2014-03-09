@@ -8,15 +8,20 @@ html, body {
 header {
   margin-bottom: 1em; }
 
+h2 {
+  taxt-size: 2em; }
+
 #audio_container {
-  display: inline-flex;
   margin: 0 auto; }
+  #audio_container h6 {
+    margin: 0 auto 0; }
 
 #main_content {
   padding: 1em 2em;
   background-color: white;
   border: 2px solid #999999;
-  max-width: 65%; }
+  max-width: 65%;
+  width: 65%; }
 
 #menu_container {
   display: inline-flex;
@@ -46,7 +51,7 @@ header {
     list-style: none;
     margin: 0;
     padding: 0; }
-  #menu .folder, #menu .folderOpen, #menu .audio, #menu .pdf, #menu .file {
+  #menu .folder, #menu .folderOpen, #menu .audio, #menu .pdf, #menu .file, #menu #github {
     padding-left: 25px; }
   #menu .folder {
     background: url(../img/map.png) -5px -5px no-repeat; }
@@ -58,6 +63,9 @@ header {
     background: url(../img/map.png) -5px -93px no-repeat; }
   #menu .file {
     background: url(../img/map.png) -5px -122px no-repeat; }
+  #menu #github {
+    background: url(../img/github.png) no-repeat;
+    background-size: 19px; }
 
 #main_content {
   display: inline-block;
@@ -68,8 +76,27 @@ pre {
 
 header {
   text-align: center; }
+  header h6 {
+    display: block; }
+
+.filename {
+  display: block;
+  margin: .7em auto 0; }
+
+.file_links {
+  display: inline-block;
+  margin: 0 auto .7em 1em; }
+
+#codeTitle {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  padding-top: 1.0em;
+  border-top: 2px solid #111;
+  margin-top: .5em; }
 
 #resume_body {
+  color: #333;
   background-color: #efefef;
   border: 2px solid #999999;
   margin-top: 1em; }
@@ -77,6 +104,28 @@ header {
     background-color: white;
     border: 2px solid #999999;
     margin: -2px; }
+    #resume_body header a {
+      font-weight: bold; }
+  #resume_body a {
+    text-decoration: none; }
+    #resume_body a:link {
+      color: #37b8eb; }
+    #resume_body a:visited {
+      color: #ef3636; }
+    #resume_body a:hover {
+      color: #7b77ff; }
+    #resume_body a:active {
+      color: #ef3636; }
+  #resume_body h1, #resume_body h2, #resume_body h3, #resume_body h4 {
+    font-weight: bold; }
+  #resume_body h1 {
+    font-size: 1.8em; }
+  #resume_body h2 {
+    font-size: 1.5em; }
+  #resume_body h3 {
+    font-size: 1.2em; }
+  #resume_body h4 {
+    font-size: 1.0em; }
 
 fieldset {
   border: 2px solid #999999;
